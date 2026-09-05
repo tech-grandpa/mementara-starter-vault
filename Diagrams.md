@@ -43,3 +43,41 @@ print(message)
 - [ ] Create your own notebook
 
 [[Welcome#^compass|Return to the compass passage]]
+
+## Class diagram
+
+```mermaid
+classDiagram
+  Vault "1" --> "many" Note
+  Note : title
+  Note : path
+```
+
+## Snapshot states
+
+```mermaid
+stateDiagram-v2
+  [*] --> Downloading
+  Downloading --> NotesReady
+  NotesReady --> MediaReady
+  MediaReady --> [*]
+```
+
+## Relationships
+
+```mermaid
+erDiagram
+  VAULT ||--o{ NOTE : contains
+  NOTE ||--o{ SECTION : indexes
+```
+
+## A small timeline
+
+```mermaid
+gantt
+  title A notebook release
+  dateFormat YYYY-MM-DD
+  section Reader
+  Write notes :2026-09-01, 2d
+  Download and test :2026-09-03, 2d
+```
