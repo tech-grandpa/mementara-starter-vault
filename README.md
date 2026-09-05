@@ -15,3 +15,9 @@ The bundled sample in Mementara works immediately without an account. The live s
 - Change a note in your own copy, then refresh while online.
 
 All content is fictional. Do not add private notes to this public example.
+
+## Browse plain text and PDFs
+
+Open `Quick reference.txt` or search for `lighthouse` to try literal plain-text reading. Expand the Assets folder to open `reference.pdf` directly; PDFs do not need a Markdown link to be included in a download. PDF text search is not supported.
+
+Rotate any open document to read in landscape. Use the contents button for Markdown headings, and use Fit or the zoom buttons in expanded diagrams. Folder counts include documents in nested folders; full paths can be enabled in Settings.

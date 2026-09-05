@@ -1,0 +1,4 @@
+Plain text travels offline too.
+
+Search for lighthouse to find this document.
+Markup such as # headings, **asterisks**, and <tags> stays literal.
