@@ -1,0 +1,4 @@
+@startuml
+[Markdown] --> [GitHub]
+[GitHub] --> [Offline reader]
+@enduml
