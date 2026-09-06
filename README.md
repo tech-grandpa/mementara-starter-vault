@@ -12,7 +12,7 @@ These examples are in the live repository. In a development build, refresh the s
 
 ## Try the reader
 
-Start with [Welcome](Welcome.md). Copy this repository or use **Use this template**, then add notes with your usual editor. In a configured development build, choose your copy after installing its GitHub App for that repository. Mementara is still in development; a public App Store or TestFlight release is not available yet, and private GitHub sign-in requires a configured development authentication service.
+Start with [Welcome](Welcome.md). To read your own notes, follow [Connect a repository](Guides/Connect%20a%20repository.md): create or choose a repository, grant the Mementara GitHub App read-only access, and download it. The guide includes the steps for an empty repository list, organization approval, and adding another repository later. Mementara is still in development; a public App Store or TestFlight release is not available yet.
 
 The bundled sample in Mementara works immediately without an account. The live sample repository is `tech-grandpa/mementara-starter-vault` on branch `main`, with an empty root folder setting.
 

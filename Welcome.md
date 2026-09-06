@@ -17,6 +17,10 @@ This is the **Mementara starter vault**: a small notebook you can copy, explore,
 > [!TIP]
 > Your GitHub repository stays the source of truth. Mementara is a read-only companion.
 
+## Bring your own notes
+
+Follow [[Guides/Connect a repository|Connect a repository]] to create your own notebook, choose its GitHub permissions, and download it. Signing in alone does not add repositories to the picker.
+
 ## A notebook that travels
 
 A compass is useful even when the network disappears. Your downloaded notes work the same way. ^compass

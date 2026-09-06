@@ -7,7 +7,7 @@ tags: [guide]
 
 ## Your first vault
 
-Create a repository from this sample, add Markdown notes, and install the Mementara GitHub App with **Contents: read-only** access to that repository.
+Follow [Connect a repository](Connect%20a%20repository.md) to create a notebook or use an existing one, grant read-only GitHub access, and download it. The guide also explains what to do if the repository list is empty or organization approval is needed.
 
 In Mementara, choose the repository, branch, and an optional folder. Wait for **Available offline** before disconnecting.
 
