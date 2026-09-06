@@ -1,8 +1,18 @@
 # Mementara starter vault
 
-A synthetic notebook for learning and testing [Mementara](https://github.com/tech-grandpa/mementara), a read-only iPhone companion for GitHub Markdown repositories.
+A sample notebook for Mementara, a read-only iPhone and iPad companion for Markdown repositories in GitHub. These fictional notes show how a decision, a useful command, or a checklist can become a pocket reference.
 
-Start with [Welcome](Welcome.md). Copy this repository or use **Use this template**, then add notes with your usual editor. Choose your copy in Mementara after installing its GitHub App for that repository. The app remains in development; private GitHub sign-in requires a configured development auth broker.
+## Something you might actually look up
+
+- **“Why did we choose this?”** Read [Keep a useful offline copy](Engineering/Keep%20a%20useful%20offline%20copy.md), an architecture decision with a Mermaid flow and tradeoffs. Search for `snapshot` or `stale`.
+- **“What was that command?”** Open [Git commands worth keeping](Reference/Git%20commands%20worth%20keeping.md). Search for `changed` to reach the working-tree comparison.
+- **“Did we check everything?”** Browse [Before a release](Playbooks/Before%20a%20release.md), a small release checklist that links back to the decision. Search for `airplane`.
+
+These examples are in the live repository. In a development build, refresh the sample while online to download them. The app's bundled sample may contain only the original format tour.
+
+## Try the reader
+
+Start with [Welcome](Welcome.md). Copy this repository or use **Use this template**, then add notes with your usual editor. In a configured development build, choose your copy after installing its GitHub App for that repository. Mementara is still in development; a public App Store or TestFlight release is not available yet, and private GitHub sign-in requires a configured development authentication service.
 
 The bundled sample in Mementara works immediately without an account. The live sample repository is `tech-grandpa/mementara-starter-vault` on branch `main`, with an empty root folder setting.
 
