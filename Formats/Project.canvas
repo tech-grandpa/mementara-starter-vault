@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "question",
+      "type": "text",
+      "text": "Orbital planning\nWhat is worth noticing tonight?",
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "journal",
+      "type": "file",
+      "file": "Formats/Astronomy.pdf",
+      "x": 330,
+      "y": 0,
+      "width": 240,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "reading",
+      "type": "file",
+      "file": "Formats/Reading list.csv",
+      "x": 0,
+      "y": 230,
+      "width": 240,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "next",
+      "type": "text",
+      "text": "Tomorrow\nConnect one observation to a reading note.",
+      "x": 330,
+      "y": 230,
+      "width": 240,
+      "height": 120,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "question",
+      "fromSide": "right",
+      "toNode": "journal",
+      "toSide": "left",
+      "label": "Observe"
+    },
+    {
+      "id": "e2",
+      "fromNode": "reading",
+      "fromSide": "right",
+      "toNode": "next",
+      "toSide": "left",
+      "label": "Reflect"
+    },
+    {
+      "id": "e3",
+      "fromNode": "question",
+      "fromSide": "bottom",
+      "toNode": "reading",
+      "toSide": "top",
+      "label": "Read"
+    }
+  ]
+}

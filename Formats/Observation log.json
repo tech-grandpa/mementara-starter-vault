@@ -1,0 +1,23 @@
+{
+  "project": "Pocket observatory",
+  "entries": [
+    {
+      "title": "A shape to revisit",
+      "tags": [
+        "Lenticular",
+        "sketch"
+      ],
+      "observation": "An imagined lens-shaped cloud above the ridge.",
+      "question": "Can a drawing capture what the description misses?"
+    },
+    {
+      "title": "The quiet detail",
+      "tags": [
+        "attention",
+        "reflection"
+      ],
+      "observation": "The first thing written down became the easiest thing to remember.",
+      "question": "What would happen if I chose a different detail?"
+    }
+  ]
+}

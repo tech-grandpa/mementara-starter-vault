@@ -1,33 +1,32 @@
-# Mementara starter vault
+# Mementara demo vault
 
-A sample notebook for Mementara, a read-only iPhone and iPad companion for Markdown repositories in GitHub. These fictional notes show how a decision, a useful command, or a checklist can become a pocket reference.
+![A quiet hillside under connected stars](Assets/field-notes.svg)
 
-## Something you might actually look up
+**A small notebook for a wide world of ideas.**
 
-- **“Why did we choose this?”** Read [Keep a useful offline copy](Engineering/Keep%20a%20useful%20offline%20copy.md), an architecture decision with a Mermaid flow and tradeoffs. Search for `snapshot` or `stale`.
-- **“What was that command?”** Open [Git commands worth keeping](Reference/Git%20commands%20worth%20keeping.md). Search for `changed` to reach the working-tree comparison.
-- **“Did we check everything?”** Browse [Before a release](Playbooks/Before%20a%20release.md), a small release checklist that links back to the decision. Search for `airplane`.
+A passage from a PDF. A sketch that makes a thought click. A reading list you can actually find again. This notebook brings them together in a little evening-observation project, alongside practical engineering notes.
 
-These examples are in the live repository. In a development build, refresh the sample while online to download them. The app's bundled sample may contain only the original format tour.
+**[Start with Welcome](Welcome.md)** · **[Take the five-minute tour](Guides/Demo%20tour.md)** · **[Browse the format gallery](Formats/Overview.markdown)**
 
-## Try the reader
+## Pick a place to begin
 
-Start with [Welcome](Welcome.md). To read your own notes, follow [Connect a repository](Guides/Connect%20a%20repository.md): create or choose a repository, grant the Mementara GitHub App read-only access, and download it. The guide includes the steps for an empty repository list, organization approval, and adding another repository later. Mementara is still in development; a public App Store or TestFlight release is not available yet.
+| If you like… | Open… |
+| --- | --- |
+| Quiet, readable pages | [The illustrated field journal](Formats/Astronomy.pdf) |
+| Seeing how ideas connect | [The research diagram](Formats/Research.drawio) or [the project canvas](Formats/Project.canvas) |
+| A little structure | [The reading list](Formats/Reading%20list.csv) and [the evening plan](Formats/Evening%20plan.yaml) |
+| Useful things to keep | [Git commands](Reference/Git%20commands%20worth%20keeping.md), [an offline design decision](Engineering/Keep%20a%20useful%20offline%20copy.md), and [a release checklist](Playbooks/Before%20a%20release.md) |
 
-The bundled sample in Mementara works immediately without an account. The live sample repository is `tech-grandpa/mementara-starter-vault` on branch `main`, with an empty root folder setting.
+## Try one small discovery
 
-## What to try
+In Mementara, search for **Andromeda discovery**. In the content-aware version 2 prototype, the result opens a passage on page two of the field journal. Then try **Nebula** for the diagram, or **Magnetosphere** for a row in the reading list.
 
-- Search for `compass`, then open the matching passage.
-- Follow relative links, wikilinks, and heading/block links.
-- Read the Mermaid diagrams, math, table, and code examples.
-- Bookmark a note and relaunch offline.
-- Change a note in your own copy, then refresh while online.
+Download the sample first, then take it offline. Bookmark a useful passage, close the app, and find it again. The [demo tour](Guides/Demo%20tour.md) walks through the rest.
 
-All content is fictional. Do not add private notes to this public example.
+## Make it your own
 
-## Browse plain text and PDFs
+Use this repository as a template, or follow [Connect a repository](Guides/Connect%20a%20repository.md) to bring an existing notebook into Mementara. The bundled sample works without an account; refreshing it downloads this repository's `main` branch with an empty root setting.
 
-Open `Quick reference.txt` or search for `lighthouse` to try literal plain-text reading. Expand the Assets folder to open `reference.pdf` directly; PDFs do not need a Markdown link to be included in a download. PDF text search is not supported.
+The new content-search and diagram features require the content-aware version 2 development build. Earlier builds can still explore the Markdown, images and PDF pages. Office documents and audio offer system preview or sharing; they are searchable by filename, not by their contents. Full details are in the [format gallery](Formats/Overview.markdown).
 
-Rotate any open document to read in landscape. Use the contents button for Markdown headings, and use Fit or the zoom buttons in expanded diagrams. Folder counts include documents in nested folders; full paths can be enabled in Settings.
+All project entries, reading titles and observations here are fictional demo content. The star artwork is decorative, not a navigation chart. Keep private notes in your own repository.
