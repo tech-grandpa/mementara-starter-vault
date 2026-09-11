@@ -33,7 +33,7 @@
     {
       "id": "next",
       "type": "text",
-      "text": "Tomorrow\nConnect one observation to a reading note.",
+      "text": "Tomorrow\nConnect a reading note.",
       "x": 330,
       "y": 230,
       "width": 240,
